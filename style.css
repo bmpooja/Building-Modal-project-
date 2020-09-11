@@ -1,0 +1,33 @@
+html, body {
+    margin: 0;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  
+  /** 
+    Our buttons '#open-modal, #close-modal' 
+  
+    1) For the background colour use 'royalblue'
+    2) Be aware of the colour, padding & font size
+    3) Make sure the cursor has a pointer so that it demonstrates to the user the button is clickable
+  **/
+ #open-modal, #close-modal{
+      background-color: royalblue;
+      color: white;
+      text-align: center;
+      padding:16px;
+      font-size: 20px;
+      cursor: pointer;
+  }
+  #modal{
+      background-color: orange;
+      max-width: 600px;
+      margin: 0 auto;
+      padding:20px;
+      height: 200px;
+  }
+
+  #overlay {
+    display: none;
+  }
